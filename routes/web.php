@@ -13,8 +13,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::post('/test', 'PostsController@test');
-
 Route::post('/add', 'PostsController@add_posts');
 
 Route::get('/post/{id}', 'PostsController@index');
