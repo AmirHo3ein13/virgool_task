@@ -1,5 +1,6 @@
 # virgool_task
 File of the task is in `virgool-task.pdf`  
+Test file is `test.xml`
 
 ## Routes
 ### index
