@@ -22,7 +22,7 @@ class PostsController extends Controller
      */
     private function parse_xml($xml_path){
         $parser = new Parser();
-        return $parser->xml(File::get(public_path($xml_path)));
+        return $parser->xml(File::get(public_path('storage/'.$xml_path)));
     }
 
     /**
